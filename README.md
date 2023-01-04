@@ -1,1 +1,1 @@
-"# Algorithm_practice" 
+Algorithm practice from Programmers(www.programmers.co.kr)
