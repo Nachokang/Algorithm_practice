@@ -1,1 +1,1 @@
-Algorithm practice from Programmers(www.programmers.co.kr)
+Algorithm practice from Programmers(www.programmers.co.kr) and Baekjoon(www.acmicpc.net/)
