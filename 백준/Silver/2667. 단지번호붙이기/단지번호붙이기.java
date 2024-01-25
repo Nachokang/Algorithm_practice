@@ -43,7 +43,7 @@ public class Main {
 
     static void BFS(int srow, int scol) {
         Queue<Node> q = new LinkedList<>();
-        houses = new int[25*25];
+        houses = new int[N*N];
 
         for(int i=srow; i<N; i++) {
             for(int j=scol; j<N; j++) {
