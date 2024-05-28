@@ -36,6 +36,10 @@ class Main {
         while(!pq.isEmpty()) {
             Edge curr = pq.remove();
 
+            if(dist[curr.node] < curr.weight) {
+                continue;
+            }
+
             for(int i=0; i<adj[curr.node].size(); i++) {
                 Edge next = adj[curr.node].get(i);
 
@@ -45,7 +49,7 @@ class Main {
                 }
             }
         }
-        
+
         for(int i=1; i<V+1; i++) {
             if(dist[i] == Integer.MAX_VALUE) {
                 System.out.println("INF");
